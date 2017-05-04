@@ -1,0 +1,59 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome-to-mkdocs",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "Welcome to MkDocs"
+        },
+        {
+            "location": "/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Commands"
+        },
+        {
+            "location": "/#project-layout",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Project layout"
+        },
+        {
+            "location": "/flink-example/",
+            "text": "Flink-examples (for Flink 1.2.1)\n\n\nCollection of common Flink usage and utilities.\nAt the moment, there are only the following jobs:\n\n\n\n\nCsv2RowExample: shows how to generate a Flink \nDataSet\n from a CSV file, using\n\n\nflink-table-api\n : doesn't hangle properly string fields containing double quoted tokens (see https://issues.apache.org/jira/browse/FLINK-4785)\n\n\napache commons-csv\n : reads all fields as string\n\n\n\n\n\n\nElastisearchHelper: shows how to create elasticsearch index templates and index mappings, allowing\n\n\nnumber of shards configuration: needed in most cases (see https://issues.apache.org/jira/browse/FLINK-4491)\n\n\nnumber of replicas configuration\n\n\nstop words, filter and mappings configuration\n\n\n\n\n\n\nKafkaFlinkAvroParquet: shows how to integrate kafka, flink, avro and parquet. In particular\n\n\nAvroDeserializationSchema: deserialize a \n object to byte[]\n\n\nAvroSerializationSchema: serialize the deserialized byte[] to a \n object\n\n\ndeserialized object are passed through a Kafka queue",
+            "title": "Flink-examples"
+        },
+        {
+            "location": "/flink-example/#flink-examples-for-flink-121",
+            "text": "Collection of common Flink usage and utilities.\nAt the moment, there are only the following jobs:   Csv2RowExample: shows how to generate a Flink  DataSet  from a CSV file, using  flink-table-api  : doesn't hangle properly string fields containing double quoted tokens (see https://issues.apache.org/jira/browse/FLINK-4785)  apache commons-csv  : reads all fields as string    ElastisearchHelper: shows how to create elasticsearch index templates and index mappings, allowing  number of shards configuration: needed in most cases (see https://issues.apache.org/jira/browse/FLINK-4491)  number of replicas configuration  stop words, filter and mappings configuration    KafkaFlinkAvroParquet: shows how to integrate kafka, flink, avro and parquet. In particular  AvroDeserializationSchema: deserialize a   object to byte[]  AvroSerializationSchema: serialize the deserialized byte[] to a   object  deserialized object are passed through a Kafka queue",
+            "title": "Flink-examples (for Flink 1.2.1)"
+        },
+        {
+            "location": "/OkkamRefine/",
+            "text": "OpenRefine\n\n\n\n\nOpenRefine is a power tool that allows you to load data, understand it,\nclean it up, reconcile it to master database, and augment it with data coming from\nFreebase or other web sources. All with the comfort and privacy of \nyour own computer.\n\n\nWhere can I get more information?\n\n\nLook at the OpenRefine web site http://openrefine.org and the wiki http://github.com/OpenRefine/OpenRefine/wiki\n\n\nLicensing and legal issues\n\n\nOpenRefine is open source software and is licensed under the BSD license\nlocated in the \nLICENSE.txt\n. See that file also for information on open source\nlibraries that OpenRefine depends on.\n\n\nCredits\n\n\nThis software was created by Metaweb Technologies, Inc. and originally written\nand conceived by David Huynh \n. Metaweb Technologies, Inc.\nwas acquired by Google, Inc. in July 2010 and the product was renamed Google Refine.\nIn October 2012, it was renamed OpenRefine as it transitioned to a \ncommunity-supported product.\n\n\nThis is the full list of contributors (in chronological order):\n\n\n\n\nDavid Huynh \n\n\nStefano Mazzocchi \n\n\nVishal Talwar \n \n\n\nJeff Fry \n\n\nWill Moffat \n\n\nJames Home \n\n\nIain Sproat \n\n\nTom Morris \n\n\nHeather Campbell \n\n\nThad Guidry \n\n\nPaul Makepeace \n\n\nToma\u017e \u0160olc \n\n\nGabriel Sjoberg \n\n\nRod Salazar \n\n\npxb \n\n\n\n\nWe welcome additional contributors if you'd like to help out.\n\n\nThank you for your interest.\n\n\n\n\nThe OpenRefine Development Team\nhttp://openrefine.org",
+            "title": "OpenRefine"
+        },
+        {
+            "location": "/OkkamRefine/#openrefine",
+            "text": "OpenRefine is a power tool that allows you to load data, understand it,\nclean it up, reconcile it to master database, and augment it with data coming from\nFreebase or other web sources. All with the comfort and privacy of \nyour own computer.",
+            "title": "OpenRefine"
+        },
+        {
+            "location": "/OkkamRefine/#where-can-i-get-more-information",
+            "text": "Look at the OpenRefine web site http://openrefine.org and the wiki http://github.com/OpenRefine/OpenRefine/wiki",
+            "title": "Where can I get more information?"
+        },
+        {
+            "location": "/OkkamRefine/#licensing-and-legal-issues",
+            "text": "OpenRefine is open source software and is licensed under the BSD license\nlocated in the  LICENSE.txt . See that file also for information on open source\nlibraries that OpenRefine depends on.",
+            "title": "Licensing and legal issues"
+        },
+        {
+            "location": "/OkkamRefine/#credits",
+            "text": "This software was created by Metaweb Technologies, Inc. and originally written\nand conceived by David Huynh  . Metaweb Technologies, Inc.\nwas acquired by Google, Inc. in July 2010 and the product was renamed Google Refine.\nIn October 2012, it was renamed OpenRefine as it transitioned to a \ncommunity-supported product.  This is the full list of contributors (in chronological order):   David Huynh   Stefano Mazzocchi   Vishal Talwar     Jeff Fry   Will Moffat   James Home   Iain Sproat   Tom Morris   Heather Campbell   Thad Guidry   Paul Makepeace   Toma\u017e \u0160olc   Gabriel Sjoberg   Rod Salazar   pxb    We welcome additional contributors if you'd like to help out.  Thank you for your interest.   The OpenRefine Development Team\nhttp://openrefine.org",
+            "title": "Credits"
+        }
+    ]
+}
